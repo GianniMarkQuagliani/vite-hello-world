@@ -4,3 +4,4 @@
 - creo un titolo
 - aggiungo un'altro componente chiamata AppHero
 - importo AppHero
+- creo un jumbo
