@@ -1,6 +1,11 @@
 <script>
 export default {
-
+  nome : 'Header',
+  data() {
+    return {
+      
+    }
+  },
 }
 </script>
 
