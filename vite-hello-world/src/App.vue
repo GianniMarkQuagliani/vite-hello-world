@@ -2,11 +2,13 @@
 <script>
 // Import
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
 // Export
 export default{
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 }
 </script>
@@ -14,11 +16,10 @@ export default{
 
 <!-- ************************************ TEMPLATE ************************************ -->
 <template>
-  
-  <nav>
+  <div id="app">
     <AppTitle />
-  </nav>
-  
+    <AppHero />
+  </div>
 </template>
 
 
