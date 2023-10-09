@@ -1,37 +1,28 @@
 <!-- ************************************ SCRIPT ************************************ -->
 <script>
 // Import
-import Header from './components/Header.vue';
+import AppTitle from './components/AppTitle.vue';
 
 // Export
-export default {
-  nome: 'App',
-
-  // Components
+export default{
   components: {
-    Header
-  },
-
-  // Data
-  data() {
-    return {
-      titolo : 'La mia prima app con Vite!'
-    }
-  },
+    AppTitle
+  }
 }
 </script>
 
 
 <!-- ************************************ TEMPLATE ************************************ -->
 <template>
-  <main>
-    <h1>{{ titolo }}</h1>
-  </main>
+  
+  <nav>
+    <AppTitle />
+  </nav>
   
 </template>
 
 
 <!-- ************************************ STYLE ************************************ -->
-<style>
+<style scoped>
 
 </style>
