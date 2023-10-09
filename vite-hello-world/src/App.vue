@@ -24,6 +24,9 @@ export default {
 
 <!-- ************************************ TEMPLATE ************************************ -->
 <template>
+  <main>
+    <h1>{{ titolo }}</h1>
+  </main>
   
 </template>
 
